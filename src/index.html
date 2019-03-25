@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tamagochi</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Tamagochi</h1>
+      </div>
+
+
+      <div id="firstpage">
+        <h2 class="choose">Choose your tamagochi:</h2>
+        <div class="row">
+          <div class="col-sm tamagochi">
+            <form id="dino-form">
+              <input id="dinoname" placeholder="Name" type="text" required>
+              <button type="submit">Create</button>
+            </form>
+            <img class="dinoClick"  src="https://cdn.dribbble.com/users/35865/screenshots/1740689/little-t-rex.jpg" alt="dino">
+          </div>
+          <div class="col-sm tamagochi">
+            <form id="cat-form">
+              <input id="catname" placeholder="Name" type="text" required>
+              <button type="submit">Create</button>
+            </form>
+            <img class="catClick" src="https://i.pinimg.com/474x/71/03/b4/7103b43c618de0704752b171d86ccb72.jpg" alt="cat">
+          </div>
+          <div class="col-sm tamagochi">
+            <form id="chicka-form">
+              <input id="name" placeholder="Name" type="text" required>
+              <button type="submit">Create</button>
+            </form>
+            <img class="chickaClick" src="https://www.embroiderypanda.com/image/cache/data/%20A-A9929/Cute-Little-Chick-Holding-an-Easter-Egg-Filled-Machine-Embroidery-Design-Digitized-Pattern-700x700.jpg" alt="chicka">
+          </div>
+        </div>
+      </div>
+
+      <div id="secondpage">
+        <h2>This is your new pet <span class="dinoname"></span></h2>
+        <h3>Sleep level: <span class="sleep"></span></h3>
+        <h3>Fun level: <span class="fun"></span></h3>
+        <h3>Food level: <span class="hunger"></span></h3>
+        <h2 class="isdead"></h2>
+        <br>
+        <button id="getfood">Eat</button>
+        <button id="getsleep">Sleep</button>
+        <button id="getfun">Play</button>
+          <img class="dinoClick"  src="https://cdn.dribbble.com/users/35865/screenshots/1740689/little-t-rex.jpg" alt="dino">
+      </div>
+
+      <div id="thirdpage">
+        <h2>This is your new pet <span class="catname"></span></h2>
+        <h3>Sleep level: <span class="sleep"></span></h3>
+        <h3>Fun level: <span class="fun"></span></h3>
+        <h3>Food level: <span class="hunger"></span></h3>
+        <h2 class="isdead"></h2>
+        <br>
+        <button id="catfood">Eat</button>
+        <button id="catsleep">Sleep</button>
+        <button id="catfun">Play</button>
+          <img class="catClick" src="https://i.pinimg.com/474x/71/03/b4/7103b43c618de0704752b171d86ccb72.jpg" alt="cat">
+      </div>
+
+      <div id="forthpage">
+        <h2>This is your new pet <span class="chickaname"></span></h2>
+        <h3>Sleep level: <span class="sleep"></span></h3>
+        <h3>Fun level: <span class="fun"></span></h3>
+        <h3>Food level: <span class="hunger"></span></h3>
+        <br>
+        <h2 class="isdead"></h2>
+        <button id="chickafood">Eat</button>
+        <button id="chickasleep">Sleep</button>
+        <button id="chickafun">Play</button>
+        <img class="chickaClick" src="https://www.embroiderypanda.com/image/cache/data/%20A-A9929/Cute-Little-Chick-Holding-an-Easter-Egg-Filled-Machine-Embroidery-Design-Digitized-Pattern-700x700.jpg" alt="chicka">
+      </div>
+
+
+    </div>
+
+  </body>
+</html>
