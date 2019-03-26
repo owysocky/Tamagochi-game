@@ -16,7 +16,7 @@ export function time(tamagochi) {
     $('.sleep').text(tamagochi.sleep);
     $('.fun').text(tamagochi.fun);
     $('.hunger').text(tamagochi.hunger);
-  }, 500);
+  }, 100);
 }
 
 export function action(tamagochi){

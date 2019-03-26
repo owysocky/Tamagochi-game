@@ -26,7 +26,7 @@ export class DinoRex extends Tamagochi{
   setSleep() {
     setInterval(() => {
       this.sleep -= 2;
-    }, 3000);
+    }, 5000);
   }
 
   setFun() {
